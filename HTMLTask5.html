@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        div {
+            margin: 50px;
+            padding-left:30px;
+        }
+        #button1{
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task-5</h1>
+    <form action="" >
+        <div>
+            <h1 style="padding-left: 550px;; color: blue;">Registration form</h1>
+            
+            <table border="1" cellspacing="0" width="90%">
+                <tr>
+                    <th>
+                        <label for="fname">First Name</label>
+                    </th>
+                    <td>
+                        <input type="text" id="fname" name="fname" style="width: 99%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="uname">Last Name</label>
+                    </th>
+                    <td>
+                        <input type="text" id="lname" name="lname" style="width: 99%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="emailid">Email</label>
+                    </th>
+                    <td>
+                        <input type="email" id="emailid" name="emailid" style="width: 99%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="passw">Password</label>
+                    </th>
+                    <td>
+                        <input type="password" id="passw" name="passw" style="width: 99%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="repass">Re-enter Password:</label>
+                    </th>
+                    <td>
+                        <input type="password" id="repass" name="repass" style="width: 99%;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th rowspan="2">
+                        <label for="gender">Gender:</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" id="gender" name="gender" value="Male">Male
+                    </td>
+                    <tr>
+                    <td>
+                        <input type="checkbox" id="gender" name="gender" value="Female">Female
+                    </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="age">Age:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="age" name="age" style="width: 99%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="phoneNo">Phone Number</label>
+                    </th>
+                    <td>
+                        <input type="text" id="phoneNo" name="phoneNo" style="width: 99%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="address">Address</label>
+                    </th>
+                    <td>
+                        <textarea name="address" id="address" cols="50" rows="10" style="width: 99%;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="state">State</label>
+                    </th>
+                    <td>
+                        <input type="text" id="state" name="state" style="width: 99%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="country">Country</label>
+                    </th>
+                    <td>
+                        <select id="country" name="country" >
+                            <option value="-1">Choose your country</option>
+                            <option>India</option>
+                            <option>Sri Lanka</option>
+                            <option>Nepal</option>
+                            <option>other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="languages">Languages known</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" id="lang" name="lang1" value="English">English
+                        <input type="checkbox" id="lang" name="lang2" value="Kannada">Kannada
+                        <input type="checkbox" id="lang" name="lang3" value="Hindi">Hindi
+                        <input type="checkbox" id="lang" name="lang4" value="Telugu">Telugu
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" id="agree" name="agreed" value="yes">Hereby I declare all the given details are true
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;">Log in to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website</td>
+                </tr>
+                
+            </table>
+            <div  id="button1"><button type="submit" id="reg" value="yes" >Register</button></div>
+        </div>
+    </form>
+</body>
+</html>

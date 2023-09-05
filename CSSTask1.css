@@ -1,0 +1,19 @@
+table,th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+#id1{
+    border: 2px solid black;
+    width: 200px;
+    background-color: aliceblue;
+}
+#s1{
+    border-radius: 8px 8px 8px 8px;
+}
+#s2{
+    border-radius: 0px 28px 0px 28px;
+}
+#s3{
+    border-radius: 18px 0px 8px 28px;
+}
